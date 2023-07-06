@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
+}
+
+body {
+  text-rendering: optimizeSpeed;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root,
+.app {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
