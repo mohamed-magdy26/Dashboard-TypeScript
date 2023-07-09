@@ -7,8 +7,6 @@ import Dashboard from "./Pages/Dashboard"
 import Predictions from "./Pages/Predictions"
 
 
-
-
 const NavItems = [
   {
     label: "Dashboard",
@@ -19,6 +17,8 @@ const NavItems = [
     path: "/predictions",
   },
 ]
+
+
 const theme = createTheme(themeSettings)
 function App() {
   return (

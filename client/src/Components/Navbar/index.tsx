@@ -1,7 +1,7 @@
-import { Box, Typography, colors, useTheme } from "@mui/material"
+import { Box, Typography, useTheme } from "@mui/material"
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import FlexBetween from "@/Components/FlexBetween"
+import FlexBetween from "@/StyledComponents/FlexBetween"
 import { Pix } from "@mui/icons-material";
 
 
